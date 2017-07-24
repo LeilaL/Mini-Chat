@@ -8,8 +8,8 @@ a{
   color:#fff;
   text-decoration:none;
 }
-.container{
-  width:400px;
+.main{
+  width:370px;
   display:block;
   margin:0 auto;
   box-shadow:0 2px 5px rgba(0,0,0,0.4);
@@ -121,4 +121,11 @@ a{
   background:#6294c2;
   border-radius:2px;
   float:right;
+}
+
+
+@media (min-width: 400px) {
+.main{
+  width:400px;
+}
 }
