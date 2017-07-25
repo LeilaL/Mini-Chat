@@ -1,85 +1,88 @@
-*{
-  font-family:'Helvetica Neue',Helvetica, sans-serif;
-  font-size:14px;
-  margin:0;
-}
-a{
-  font-weight:bold;
-  color:#fff;
-  text-decoration:none;
-}
-.main{
-  width:370px;
-  display:block;
-  margin:0 auto;
-  box-shadow:0 2px 5px rgba(0,0,0,0.4);
-}
-.header{
-  padding:20px 20px 18px 20px;
-  background:#5FB471;
-  color:#fff;
-}
-.header h2{
-  font-size:16px;
-  line-height:15px;
-  display:inline-block;
+* {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
 }
 
-.enter-message{
-  background:#ECECEC;
-  color:#a1a1a1;
-  padding:13px 7px;
+a {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
 }
 
-.enter-message input{
-  border:none;
-  padding:10px 12px;
-  background:#d3d3d3;
-  width:260px;
-  border-radius:2px;
+.main {
+  width: 370px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-.chat-box .message-box{
-  padding:18px 0 10px;
-}
-.message-box .picture{
-  float:left;
-  width:50px;
-  display:block;
-  padding-right:10px;
-}
-.picture img{
-  width:43px;
-  height:48px;
-  border-radius:5px;
+.header {
+  padding: 20px 20px 18px 20px;
+  background: #5FB471;
+  color: #fff;
 }
 
-.message{
+.header h2 {
+  font-size: 16px;
+  line-height: 15px;
+  display: inline-block;
+}
+
+.enter-message {
+  background: #ECECEC;
+  color: #a1a1a1;
+  padding: 13px 7px;
+}
+
+.enter-message input {
+  border: none;
+  padding: 10px 12px;
+  background: #d3d3d3;
+  width: 260px;
+  border-radius: 2px;
+}
+
+.chat-box .message-box {
+  padding: 18px 0 10px;
+}
+
+.message-box .picture {
+  float: left;
+  width: 50px;
+  display: block;
+  padding-right: 10px;
+}
+
+.picture img {
+  width: 43px;
+  height: 48px;
+  border-radius: 5px;
+}
+
+.message {
   background: lightgray;
-  display:inline-block;
-  padding:13px;
-  width:274px;
-  border-radius:2px;
-  box-shadow: 0 1px 1px rgba(0,0,0,.04);
-  position:relative;
+  display: inline-block;
+  padding: 13px;
+  width: 274px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+  position: relative;
 }
 
-.message span{
-  color:#555;
-  font-weight:bold;
+.message span {
+  color: #555;
+  font-weight: bold;
 }
 
-.message-box.right-img .picture{
-  float:right;
-  padding:0;
-  padding-left:10px;
+.message-box.right-img .picture {
+  float: right;
+  padding: 0;
+  padding-left: 10px;
 }
-
-
-
 
 @media (min-width: 400px) {
-.main{
-  width:400px;
-}
+  .main {
+    width: 400px;
+  }
 }
