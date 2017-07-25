@@ -11,18 +11,21 @@
 var answers = ["oui", "je ne sais pas", "non"];
 var message;
 
+$(document).keypress(function() {
+  var entrer = touch.which
+  if ( entrer == 13) {
+   chat();
+  }
+});
 
-$("button").click(function(){
-      var message =  $("input:text").val();
-      document.getElementByClassName("chat-box").innerHTML+="<div>"
-    });
+function chat() {
 
-
-    $("input").keypress(function (x) {
-      if (x.which == 13) {
-        setTimeout(function(){
-          $("user").append($("input").val())
-          $("input").val("");}, 200);
-        popo()
-      }
+$("#btn1").click(function(){
+      var message =  $("#textArea").val();
+      $(".chat-box").append("<div class='message-box'><div class='picture'><img src="img/mask.jpg" alt="anonymous"/></div><div class='message'><p>" + message + "</p></div></div>");
     })
+
+setTimeout(function() {
+  $(".chat-box").append("<div class='message-box left-img'><div class='picture'><img src="img/images.jpeg" alt="dewey"/></div><div class='message'><p>" + answers + "</p></div></div>");
+} 2000);
+}
