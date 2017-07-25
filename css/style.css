@@ -25,11 +25,20 @@ a{
   display:inline-block;
 }
 
-.chat-box, .enter-message{
+.enter-message{
   background:#ECECEC;
-  padding:0 20px;
   color:#a1a1a1;
+  padding:13px 7px;
 }
+
+.enter-message input{
+  border:none;
+  padding:10px 12px;
+  background:#d3d3d3;
+  width:260px;
+  border-radius:2px;
+}
+
 .chat-box .message-box{
   padding:18px 0 10px;
 }
@@ -46,7 +55,7 @@ a{
 }
 
 .message{
-  background:#fff;
+  background: lightgray;
   display:inline-block;
   padding:13px;
   width:274px;
@@ -66,16 +75,6 @@ a{
   padding-left:10px;
 }
 
-.enter-message{
-  padding:13px 0px;
-}
-.enter-message input{
-  border:none;
-  padding:10px 12px;
-  background:#d3d3d3;
-  width:260px;
-  border-radius:2px;
-}
 
 
 

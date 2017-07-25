@@ -1,14 +1,5 @@
-// $(function(){
-//
-// var today = new Date();
-// var dd = today.getDate();
-// var mm = today.getMonth()+1; //January is 0!
-//
-// var yyyy = today.getFullYear();
-// if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm} today = mm+'/'+dd+'/'+yyyy;
-//       });
 
-var answers = ["oui", "je ne sais pas", "non"];
+var answers = ["oui", "je ne sais pas", "non", "pourquoi", "ah bon"];
 var message;
 var index = -1;
 
@@ -31,6 +22,6 @@ index++
 
 setTimeout(function() {
   $(".chat-box").append("<div class='message-box left-img'><div class='picture'><img src='img/images.jpeg' alt='dewey'/></div><div class='message'><span>Him</span><p>" + answers[index] + "</p></div></div>");
-}, 1000);
+}, 2000);
 
 }
